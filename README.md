@@ -1,0 +1,2 @@
+# Silent Failure in Average Calculation Function
+This Python code demonstrates a common error: silent failure when handling an empty list in an average calculation function. The `calculate_average` function does not explicitly check for empty list inputs, leading to unexpected behavior and potential errors that are difficult to debug.  The solution demonstrates how to gracefully handle such cases using a check or raising a more informative error.
